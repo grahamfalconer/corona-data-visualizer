@@ -9,16 +9,17 @@
 e.g.
 ```
 {
-  "name": "Corona Data",
   "data": [
-      "United Kingdom": {
-        "countryPopulation": 78,000,000,
-        "coronaVirusCases": 1,000,000
-        },
-      "Belgium": {
-        "countryPopulation": 11,400,000,
-        "coronaVirusCases": 429,000,000
-        }
+    {
+      "name": "United Kingdom",
+      "countryPopulation": 78000000,
+      "coronaVirusCases": 1000000
+    },
+    {
+      "name": "Belgium",
+      "countryPopulation": 11400000,
+      "coronaVirusCases": 429000000
+    }
   ]
 }
 ```
