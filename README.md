@@ -3,7 +3,7 @@ It will be receiving typical JSON data and will use it to shade in certain areas
 The data will include the countries name, countries population and total number of coronavirus cases.
 
 e.g.
-
+```
 {
   "name": "Corona Data",
   "data": [
@@ -17,3 +17,4 @@ e.g.
         }
   ]
 }
+```
