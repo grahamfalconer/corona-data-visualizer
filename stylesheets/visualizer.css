@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: white;
+  /* background-color: rgba(70, 130, 180, 0.8); */
+}
+
+#country-list {
+  text-align: left;
+}
+
+button {
+  font-family: eroded;
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+li {
+  font-family: eroded;
+  font-size: 2.5vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  height: 20vh;
+  background: rgba(255, 0, 0, 0.6);
+  opacity: 0.1;
+  border: 0.1vw solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 0, 1); 
+  opacity: 1;
+}
+
+@font-face {
+  src: url(fonts/Afton\ James.ttf);
+  font-family: eroded;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: eroded;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: cyan;
+}
+
+iframe {
+  width: 80%;
+  height: 80vh;
+  border-radius: 2%;
+}
+
+@font-face {
+  src: url(fonts/Afton\ James.ttf);
+  font-family: eroded;
+}

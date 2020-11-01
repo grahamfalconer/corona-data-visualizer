@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualizer</title>
+  <link rel="stylesheet" href="stylesheets/visualizer.css">
+</head>
+<body>
+  <div id="main-content">
+    <h2 style="background-color: whitesmoke; border-radius: 10%;">Date Today: </h2>
+    <div>
+      <button onclick="initializeDataVisualizer('NewConfirmed')"> New Cases </button> <button onclick="initializeDataVisualizer('TotalConfirmed')"> Total Cases </button> <button onclick="initializeDataVisualizer('TotalDeaths')"> Total Deaths </button> <button onclick="initializeDataVisualizer('NewDeaths')"> New Deaths </button>
+      <button onclick="initializeDataVisualizer('NewRecovered')"> New Recovered </button> <button onclick="initializeDataVisualizer('TotalRecovered')"> Total Recovered </button>
+    </div>
+    <ul id="country-list">
+
+    </ul>
+  </div>
+</body>
+<script src="DataVisualizer.js"></script>
+</html>
